@@ -7,3 +7,9 @@
 #                       Sinon, elle est bissextile.
 #
 # Résultat attendu : Un message affichant "Année bissextile" ou "Année non bissextile"
+
+a = 1990
+
+b = a / 4
+
+

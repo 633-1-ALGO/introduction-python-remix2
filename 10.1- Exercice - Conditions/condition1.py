@@ -2,5 +2,15 @@
 # Contrainte : Ne pas calculer le produit des deux nombres.
 # Résultat attendu : Un message affichant "Produit positif" ou "Produit négatif" ou "Produit nul".
 # Indications :  Vous pouvez changer les valeurs des variables pour vos tests.
-c = 42
+
+c = 5
 d = 31
+
+if c < 0 or d < 0 :
+    print("Produit négatif")
+elif c == 0 or d == 0 :  # Contraction de "Else If"
+    print("Produit nul")
+else:
+    print("Produit positif")
+
+
