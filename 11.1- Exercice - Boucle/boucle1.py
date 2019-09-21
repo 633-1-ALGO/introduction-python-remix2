@@ -6,5 +6,8 @@ b = 0
 
 for b in A:
     b = b * A
+    b = b * A
+
+
 
 print(b/8)
